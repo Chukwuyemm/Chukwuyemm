@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse; /*It collapses the line between each column*/
+      }
+
+      th {
+        border: 1px solid;
+        background-color: antiquewhite;
+        font-size: 1.3rem;
+        padding: 10px; /*Puts space between the contents*/
+      }
+      td {
+        text-align: center;
+        border: 1px solid;
+        background-color: gray;
+        font-size: 1.3rem;
+        padding: 10px; /*Puts space between the contents*/
+      }
+    </style>
+  </head>
+  <body> 
+    <div>
+    <h1>Xena</h1>
+    <p>This is a group of cats.They are all related.</p>
+    <p>They have been described in most homes to be friendly</p>
+
+    <h2>Breed:</h2>
+    <p>Feline</p>
+
+    <h2>Ages:</h2>
+    <p>3 years</p></div>
+
+      <button>Adopt me</button>
+      <img
+        src="./CAT.jpg"
+        alt="This is a group of cats"
+        width="300px"
+        height="300px"
+        style="border-radius: 50%"
+      />
+    </div>
+    <div class="content-box">
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alfred</td>
+            <td>Maria</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Alfred</td>
+            <td>Maria</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Alfred</td>
+            <td>Maria</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Alfred</td>
+            <td>Maria</td>
+            <td>Mexico</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a href="./about.html">About html</a>
+    <a href="../HTML/contacts/contact.html">Content html</a>
+
+    <audio controls muted autoplay loop loading="lazy">
+      <source src="c-pad.mp3" type="audio/mpeg" />
+      <source src="c-pad.wav" type="audio/wav" />
+      <source src="c-pad.ogg" type="audio/ogg" />
+    </audio>
+
+    <video  controls height="400" poster="./CAT.jpg"></video><!--- the poster is to add image-->
+      <source src="./Download5.mp4" type="video/mp4"/>
+      <source src="./Download5.mp4" type="video/webm">
+    </video>
+
+    <form>
+      <h3>Sign up form</h3>
+      <label for="name">Name</label><!--It builds a label for that input-->
+      <input type="text" placeholder="Name" id="name" required minlength="3" maxlength="7"><!--required means you can't submit without filling this  min lenght is the number of character minimal max lenght is the number of character maximum -->
+      <label for="number">Number</label>
+      <input type="number" placeholder="Phone number">
+      <label for="email">Email</label>
+      <input type="email" placeholder="email" id="email">
+      <input type="password" placeholder="password">
+      <input type="date">
+
+      <label for="">Gender</label>
+      <br>
+      <input type="radio" id="Male" name="Gender"><!--The name:Gender makes the forms select and deselect simultaneously-->
+      <label for="Male">Male</label>
+      <br>
+      <input type="radio" id="Female" name="Gender">
+      <label for="Female">Female</label>
+
+      <br>
+
+      <input type="checkbox">
+      <label for="song">Signing</label>
+
+      <input type="file" accept="image/*"><!--This allows you selct files-->
+      <input type="submit" placeholder="submit"><!--This is an input type that can also be used for submit button-->
+      <button type="submit">Submit</button>
+
+      <p class="2uo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab, est doloribus sed esse ducimus mollitia exercitationem. A nulla minima aliquam velit amet. Tempora, culpa! Sequi itaque quaerat minus nostrum.</p>
+    </form><!---->
+
+
+    <div class="image-box-row">
+      
+      <div class="boxes">
+        <div>
+          <div class="box-title">
+            <img src="../HTML/Flag_of_Brazil.svg.png" alt="Brazil flag">
+            <h3>Brasil</h3>
+          </div>
+          <p>It is officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million people.</p>
+        </div>
+        <div>
+          <div class="box-title">
+            <img src="../HTML/Flag_of_Portugal_(official).svg.png" alt="Portugal flag">
+            <h3>Portugal</h3>
+          </div>
+          <p>Portugal is a southern European country on the Iberian Peninsula, bordering Spain. Its location on the Atlantic Ocean has influenced many aspects of its culture: salt cod and grilled sardines are national dishes.</p>
+        </div>
+        
+        <div>
+          <div class="box-title">
+            <img src="../HTML/Flag_of_France.svg.png" alt="France flag">
+            <h3>France</h3>
+          </div>
+          <p>In Western Europe, France encompasses medieval cities, alpine villages and Mediterranean beaches. Paris is famed for fashion houses, classical art museums, and the Eiffel Tower.</p>
+        </div>
+      </div>
+    </div>
+
+      
+    </div>
+  </body>
+</html>
